@@ -1,0 +1,375 @@
+{
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      },
+      "KEYWORD": {
+        "descendants": {}
+      },
+      "INPUT": {
+        "descendants": {
+          "valueSearch": {
+            "descendants": {},
+            "value": "Sữa"
+          }
+        }
+      },
+      "OUTPUT": {
+        "descendants": {
+          "Result": {
+            "descendants": {},
+            "value": ""
+          }
+        }
+      }
+    },
+    "value": "5c37d535-7a41-4ab7-b93a-e74d1ffd5173"
+  },
+  "platform": {
+    "type": "Web",
+    "displayName": "Web"
+  },
+  "setUpList": [],
+  "stepList": [
+    {
+      "uuid": "a01007cb-a1fd-4049-9036-42a1aaa89ae8",
+      "name": "Open Browser",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "url",
+          "type": "String",
+          "defaultValue": "http://localhost:8080/",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "118",
+      "keywordSource": "internal",
+      "keywordMethod": "openBrowser",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "6ef1f79f-eed9-4678-b88e-ee06c662e647",
+      "name": "Maximize Current Window",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "246",
+      "keywordSource": "internal",
+      "keywordMethod": "maximizeCurrentWindow",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "8cbf842c-6865-42c8-acac-a7b5c9890979",
+      "name": "Click",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Web UIObject",
+          "defaultValue": "f55ee8e8-e8d3-4fe9-9bac-134eefd45183",
+          "source": ""
+        }
+      ],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "141",
+      "keywordSource": "internal",
+      "keywordMethod": "click",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "f0cefce6-9213-436e-896f-672d94d53f6d",
+      "name": "Click",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Web UIObject",
+          "defaultValue": "4faeacbe-19cc-4b7e-bfec-f214496d5024",
+          "source": ""
+        }
+      ],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "141",
+      "keywordSource": "internal",
+      "keywordMethod": "click",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "e9d9db96-cb7f-4592-955d-d3ae623496e3",
+      "name": "Send Keys",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Web UIObject",
+          "defaultValue": "31fc52ba-8d6d-4eac-a9a3-8ab6b4c42839",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "keys",
+          "type": "String",
+          "defaultValue": "`$.this.INPUT.valueSearch`",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "153",
+      "keywordSource": "internal",
+      "keywordMethod": "sendKeys",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "a3b2b951-5de0-4df8-bf69-0e3528d157c5",
+      "name": "Send Special Keyboard Character",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Web UIObject",
+          "defaultValue": "4faeacbe-19cc-4b7e-bfec-f214496d5024",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "strKeys",
+          "type": "KeyboardKeyCode",
+          "defaultValue": "ENTER",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "154",
+      "keywordSource": "internal",
+      "keywordMethod": "sendSpecialKeyboardCharacter",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "718814a8-2f23-4fd3-aaf4-c2cf470d77ae",
+      "name": "Get Text",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Web UIObject",
+          "defaultValue": "57d7ad99-4217-4cb5-90ac-03803073f7c1",
+          "source": ""
+        }
+      ],
+      "params": [],
+      "output": {
+        "name": "$.this.OUTPUT.Result",
+        "type": "String",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "149",
+      "keywordSource": "internal",
+      "keywordMethod": "getText",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "e19ffd39-659d-41fe-8747-5c41613e5a75",
+      "name": "Verify Text Equal",
+      "platform": {
+        "type": "core",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "text",
+          "type": "String",
+          "defaultValue": "`$.this.OUTPUT.Result`",
+          "source": ""
+        },
+        {
+          "name": "anotherText",
+          "type": "String",
+          "defaultValue": "`$.this.INPUT.valueEqual`",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "23",
+      "keywordSource": "internal",
+      "keywordMethod": "verifyTextEqual",
+      "description": "",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "b434ace5-2428-496c-a780-153442574596",
+      "name": "Verify Text Match Regex",
+      "platform": {
+        "type": "core",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "text",
+          "type": "String",
+          "defaultValue": "`$.this.OUTPUT.Result`",
+          "source": ""
+        },
+        {
+          "name": "regex",
+          "type": "String",
+          "defaultValue": "$[a-zA-z]",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "25",
+      "keywordSource": "internal",
+      "keywordMethod": "verifyTextMatchRegex",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "1b202b28-6833-42cb-a1ef-40b4d58e628f",
+      "name": "ContainString: Boolean",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "input1",
+          "type": "String",
+          "defaultValue": "`$.this.INPUT.valueSearch`",
+          "source": ""
+        },
+        {
+          "name": "input2",
+          "type": "String",
+          "defaultValue": "`$.this.OUTPUT.Result`",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "Boolean",
+        "defaultValue": ""
+      },
+      "keywordPath": "b2f3bdd8-8828-416c-955e-412e61228d84",
+      "keywordSource": "custom",
+      "keywordMethod": "ContainString",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    }
+  ],
+  "tearDownList": [],
+  "managerId": "",
+  "uuid": "5c37d535-7a41-4ab7-b93a-e74d1ffd5173"
+}

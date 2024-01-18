@@ -1,0 +1,43 @@
+{
+  "testCaseList": [
+    {
+      "uuid": "f04f3ede-b9c1-40cd-961c-be20004b6d7f",
+      "disable": false,
+      "caseUUID": "69a2461e-49f7-4fae-9f05-7c05881fd027",
+      "runProfile": {
+        "platformType": "Web",
+        "colorCode": "#52c41a",
+        "profile": {
+          "configCapability": {}
+        }
+      },
+      "testRounds": [
+        {
+          "uuid": "fcebeb36-b15f-4dec-a414-312f33d36362",
+          "name": "sữa rửa mặt",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearchHoa",
+                "valueSearchThuong"
+              ],
+              "dataTable": [
+                [
+                  "SỬA RỬA MẶT",
+                  "sữa rửa mặt"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "concurrent": 1,
+  "platform": "Web",
+  "uuid": "b5a85693-c006-4005-bd71-c16321b148eb"
+}

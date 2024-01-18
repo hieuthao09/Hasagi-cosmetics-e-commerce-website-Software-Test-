@@ -1,0 +1,34 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "//h6[text()\u003d\u0027BIDAMEUN - LACTO LTA RECOVERY CREAM - Bộ kem phục hồi, làm trắng \u0026 chống lão hóa (120g+30g)\u0027]",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//h6",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div/main/main/section[2]/div/div[1]/div[2]/div/h6",
+      "active": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "a92b3fca-baaf-480b-a483-8cf3a33870e6"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "a92b3fca-baaf-480b-a483-8cf3a33870e6"
+}

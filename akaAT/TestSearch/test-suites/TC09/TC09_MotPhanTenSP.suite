@@ -1,0 +1,81 @@
+{
+  "testCaseList": [
+    {
+      "uuid": "f5f208a7-0a45-40a3-9a94-9d165b594786",
+      "disable": false,
+      "caseUUID": "5c37d535-7a41-4ab7-b93a-e74d1ffd5173",
+      "runProfile": {
+        "platformType": "Web",
+        "colorCode": "#52c41a",
+        "profile": {
+          "configCapability": {}
+        }
+      },
+      "testRounds": [
+        {
+          "uuid": "8797c0bf-c4c1-40fd-87ab-38d5ca7d35e4",
+          "name": "Sữa",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch"
+              ],
+              "dataTable": [
+                [
+                  "Sữa"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "d4735070-ded4-49c4-96a0-1b107685045e",
+          "name": "Rửa",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch"
+              ],
+              "dataTable": [
+                [
+                  "Rửa"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "7afa693a-9286-42bb-859a-caedcd806461",
+          "name": "Sữa rửa mặt",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch"
+              ],
+              "dataTable": [
+                [
+                  "Sữa rửa mặt"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "concurrent": 1,
+  "platform": "Web",
+  "uuid": "1b69133c-a492-4938-b399-93fa06c976cc"
+}

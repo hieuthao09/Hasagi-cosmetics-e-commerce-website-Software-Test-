@@ -1,0 +1,34 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "//a[text()\u003d\u0027Tẩy Tế Bào Chết Trà Xanh Hàn Quốc Benew...\u0027]",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div/main/section/div/div[2]/div/div/div[2]/h4/a",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "Linktext",
+      "value": "Tẩy Tế Bào Chết Trà Xanh Hàn Quốc Benew...",
+      "active": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "118d336b-5ead-4bdf-985e-fc7d944cc70b"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "118d336b-5ead-4bdf-985e-fc7d944cc70b"
+}

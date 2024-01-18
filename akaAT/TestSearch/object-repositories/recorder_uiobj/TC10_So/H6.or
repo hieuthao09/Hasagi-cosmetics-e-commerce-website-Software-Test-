@@ -1,0 +1,34 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "//h6[text()\u003d\u0027Kem Chống Nắng Cho Da Thường Đến Da Khô Laneige Watery Sun Cream SPF50+ PA++++ 270281012 (50ml)\u0027]",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//h6",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div/main/main/section[2]/div/div[1]/div[2]/div/h6",
+      "active": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "b63672b4-2b7d-482b-bd52-a1c0f0205010"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "b63672b4-2b7d-482b-bd52-a1c0f0205010"
+}

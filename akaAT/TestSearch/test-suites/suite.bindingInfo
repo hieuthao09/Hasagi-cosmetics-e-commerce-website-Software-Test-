@@ -1,0 +1,20 @@
+{
+  "suiteMapping": {
+    "194ab06e-9885-4ff3-b509-a89edac0b679": [
+      {"roundBindingId":"6e765baa-86f7-48b0-bff0-f8b1a7db6501","tcId":"c6f9b7dc-bd51-4f36-8936-1157e41d3c79","dataId":"a055f255-1a60-4100-ad5a-c883b1f14b6f","selectedRowKey":[[1,1],[1,7]],"testCaseVariableBinding":[{"name":"valueSearch","source":"From Data Column","value":"ValueSearch"},{"name":"ExpectedResult","source":"Default","value":"Không có kết quả phù hợp"}],"roundNameSource":"From Data Column","roundName":"ValueSearch"}
+    ],
+    "1b69133c-a492-4938-b399-93fa06c976cc": [
+      {"roundBindingId":"f5f208a7-0a45-40a3-9a94-9d165b594786","tcId":"5c37d535-7a41-4ab7-b93a-e74d1ffd5173","dataId":"d4b325f4-ad02-484b-a654-f29dd32ef608","selectedRowKey":[[1,1],[1,1],[1,3]],"testCaseVariableBinding":[{"name":"valueSearch","source":"From Data Column","value":"ValueSearch"}],"roundNameSource":"From Data Column","roundName":"ValueSearch"}
+    ],
+    "0a847f81-a078-46aa-8877-b0d8cffd0c7e": [
+      {"roundBindingId":"34825887-1e14-4d9e-ae2c-fe1a788420c9","tcId":"d35b73d9-0be6-4a50-80e4-0999fcdaaf25","dataId":"6c6c00d1-de5d-495d-91e0-351c22969c6c","selectedRowKey":[[1,1],[1,4]],"testCaseVariableBinding":[{"name":"valueSearch","source":"From Data Column","value":"valueSearch"}],"roundNameSource":"From Data Column","roundName":"valueSearch"},
+      {"roundBindingId":"0102f72c-15dc-423c-8905-9eebcc4fd912","tcId":"d35b73d9-0be6-4a50-80e4-0999fcdaaf25","dataId":"6c6c00d1-de5d-495d-91e0-351c22969c6c","selectedRowKey":[[1,1],[1,1],[1,1],[1,4]],"testCaseVariableBinding":[{"name":"valueSearch","source":"From Data Column","value":"ValueSearch"}],"roundNameSource":"From Data Column","roundName":"ValueSearch"}
+    ],
+    "b5a85693-c006-4005-bd71-c16321b148eb": [
+      {"roundBindingId":"f04f3ede-b9c1-40cd-961c-be20004b6d7f","tcId":"69a2461e-49f7-4fae-9f05-7c05881fd027","dataId":"d1b5254d-f2d6-4090-88fc-ae716e06f632","selectedRowKey":[[1,1]],"testCaseVariableBinding":[{"name":"valueSearchHoa","source":"From Data Column","value":"valueSearchHoa"},{"name":"valueSearchThuong","source":"From Data Column","value":"valueSearchThuong"}],"roundNameSource":"From Data Column","roundName":"valueSearchThuong"}
+    ],
+    "a9a0e37e-faba-4f10-9f99-b50cc764738f": [
+      {"roundBindingId":"0aa2206a-aa7c-42d2-b45a-c0e7bba47d4b","tcId":"bb37f89d-4786-46d7-b70d-722392035780","dataId":"6872ea78-d433-4fdc-ab62-59d53803d0d3","selectedRowKey":[[1,1],[1,1],[1,2]],"testCaseVariableBinding":[{"name":"valueSearch","source":"From Data Column","value":"valueSearch"}],"roundNameSource":"From Data Column","roundName":"valueSearch"}
+    ]
+  }
+}

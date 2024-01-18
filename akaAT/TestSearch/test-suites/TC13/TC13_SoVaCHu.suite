@@ -1,0 +1,61 @@
+{
+  "testCaseList": [
+    {
+      "uuid": "0aa2206a-aa7c-42d2-b45a-c0e7bba47d4b",
+      "disable": false,
+      "caseUUID": "bb37f89d-4786-46d7-b70d-722392035780",
+      "runProfile": {
+        "platformType": "Web",
+        "colorCode": "#52c41a",
+        "profile": {
+          "configCapability": {}
+        }
+      },
+      "testRounds": [
+        {
+          "uuid": "22cfff5d-4261-467d-9742-caaaa003b39d",
+          "name": "120g",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch"
+              ],
+              "dataTable": [
+                [
+                  "120g"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "501d1c01-0666-4326-a7a7-b7e39698ba8c",
+          "name": "g120",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch"
+              ],
+              "dataTable": [
+                [
+                  "g120"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "concurrent": 1,
+  "platform": "Web",
+  "uuid": "a9a0e37e-faba-4f10-9f99-b50cc764738f"
+}

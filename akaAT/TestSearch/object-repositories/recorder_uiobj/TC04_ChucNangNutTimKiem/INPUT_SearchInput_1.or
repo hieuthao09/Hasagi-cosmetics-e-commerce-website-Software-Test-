@@ -1,0 +1,46 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "SearchInput",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//input[@id\u003d\u0027SearchInput\u0027]",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//input[@name\u003d\u0027search-product\u0027]",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div/aside[2]/div[2]/div/div/form/div/input",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "Name",
+      "value": "search-product",
+      "active": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "818c6356-2f55-45c6-8115-ed2fd906b9f6"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "818c6356-2f55-45c6-8115-ed2fd906b9f6"
+}

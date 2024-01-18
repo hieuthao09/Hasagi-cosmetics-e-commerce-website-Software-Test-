@@ -1,0 +1,101 @@
+{
+  "testCaseList": [
+    {
+      "uuid": "34825887-1e14-4d9e-ae2c-fe1a788420c9",
+      "disable": false,
+      "caseUUID": "d35b73d9-0be6-4a50-80e4-0999fcdaaf25",
+      "runProfile": {
+        "platformType": "Web",
+        "colorCode": "#52c41a",
+        "profile": {
+          "configCapability": {}
+        }
+      },
+      "testRounds": [
+        {
+          "uuid": "81de3d08-2dad-46dd-ba56-8d11428b7769",
+          "name": "2",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch"
+              ],
+              "dataTable": [
+                [
+                  "2"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "e9097437-8a71-4e76-bf44-af46407bbc6a",
+          "name": "20",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch"
+              ],
+              "dataTable": [
+                [
+                  "20"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "ec80cb86-c79f-4789-b706-92e4dccd46cd",
+          "name": "120",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch"
+              ],
+              "dataTable": [
+                [
+                  "120"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "1c8c2271-231d-4a64-b074-af991da49a91",
+          "name": "23454",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch"
+              ],
+              "dataTable": [
+                [
+                  "23454"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "concurrent": 1,
+  "platform": "Web",
+  "uuid": "0a847f81-a078-46aa-8877-b0d8cffd0c7e"
+}

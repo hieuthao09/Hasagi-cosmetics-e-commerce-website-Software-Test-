@@ -1,0 +1,28 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "//div[text()\u003d\u0027Không có kết quả phù hợp\u0027]",
+      "active": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div[1]/main/section/div/div[2]/div",
+      "active": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "b072ab33-366e-4487-9b1b-3cf83cabc75f"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "b072ab33-366e-4487-9b1b-3cf83cabc75f"
+}

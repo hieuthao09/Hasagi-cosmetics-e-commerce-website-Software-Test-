@@ -1,0 +1,20 @@
+{
+  "name": "Custom Keywords",
+  "packageId": "custom",
+  "keywordType": "custom",
+  "version": "1.0.0",
+  "disabled": false,
+  "keywordCatalogs": [
+    {
+      "id": "1",
+      "name": "Web Keywords",
+      "platform": "Web",
+      "source": "internal",
+      "keywords": [
+        {"uuid":"b2f3bdd8-8828-416c-955e-412e61228d84","name":"ContainString: Boolean","platform":{"type":"Web"},"objRepo":[],"params":[{"name":"input1","type":"String","defaultValue":"","source":""},{"name":"input2","type":"String","defaultValue":"","source":""}],"output":{"name":"","type":"Boolean","defaultValue":""},"keywordPath":"Contains","keywordSource":"custom","keywordMethod":"ContainString","description":"---des--- Chuỗi input2 có chứa rong chuỗi 1 không","failureDescription":"","enable":true,"captureImg":false}
+      ]
+    }
+  ],
+  "customCatalogs": [],
+  "afterTcKws": []
+}

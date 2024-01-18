@@ -1,0 +1,175 @@
+{
+  "testCaseList": [
+    {
+      "uuid": "6e765baa-86f7-48b0-bff0-f8b1a7db6501",
+      "disable": false,
+      "caseUUID": "c6f9b7dc-bd51-4f36-8936-1157e41d3c79",
+      "runProfile": {
+        "platformType": "Web",
+        "colorCode": "#52c41a",
+        "profile": {
+          "configCapability": {}
+        }
+      },
+      "testRounds": [
+        {
+          "uuid": "d66dbba4-2eba-4fdd-a156-4ec9c4838c95",
+          "name": "##",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch",
+                "ExpectedResult"
+              ],
+              "dataTable": [
+                [
+                  "##",
+                  "Không có kết quả phù hợp"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "230fbdcc-7914-4c22-a809-12c8f276d145",
+          "name": "$$",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch",
+                "ExpectedResult"
+              ],
+              "dataTable": [
+                [
+                  "$$",
+                  "Không có kết quả phù hợp"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "2de07b51-15dc-4b3c-a31f-b67298c01e9f",
+          "name": "^^\u0026",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch",
+                "ExpectedResult"
+              ],
+              "dataTable": [
+                [
+                  "^^\u0026",
+                  "Không có kết quả phù hợp"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "c42a04de-e0c0-4149-acac-25261e99252a",
+          "name": "$$",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch",
+                "ExpectedResult"
+              ],
+              "dataTable": [
+                [
+                  "$$",
+                  "Không có kết quả phù hợp"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "795613fb-f6ce-4a96-8c42-1a55cc557e8d",
+          "name": ":)",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch",
+                "ExpectedResult"
+              ],
+              "dataTable": [
+                [
+                  ":)",
+                  "Không có kết quả phù hợp"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "813126e0-a795-4faa-996a-6b4230994f7c",
+          "name": "\u0026",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch",
+                "ExpectedResult"
+              ],
+              "dataTable": [
+                [
+                  "\u0026",
+                  "Không có kết quả phù hợp"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "600814d8-df27-4d24-b82b-02ab2c547e18",
+          "name": "-",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "valueSearch",
+                "ExpectedResult"
+              ],
+              "dataTable": [
+                [
+                  "-",
+                  "Không có kết quả phù hợp"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "concurrent": 1,
+  "platform": "Web",
+  "uuid": "194ab06e-9885-4ff3-b509-a89edac0b679"
+}
